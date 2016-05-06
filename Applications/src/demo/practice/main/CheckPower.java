@@ -14,10 +14,4 @@ public class CheckPower {
 		return (res - ceil(res)) == 0;
 	}
 	
-	public static void main(String[] args) {
-		CheckPower power = new CheckPower();
-		boolean res = power.check(102, 10);
-		System.out.println(res);
-	}
-
 }
